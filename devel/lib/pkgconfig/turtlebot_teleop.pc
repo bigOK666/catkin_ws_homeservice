@@ -1,0 +1,8 @@
+prefix=/home/kevin/workspace/catkin_ws_homeservice/devel
+
+Name: turtlebot_teleop
+Description: Description of turtlebot_teleop
+Version: 2.4.2
+Cflags: 
+Libs: -L/home/kevin/workspace/catkin_ws_homeservice/devel/lib 
+Requires: roscpp geometry_msgs joy
