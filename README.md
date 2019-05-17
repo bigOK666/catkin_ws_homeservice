@@ -19,6 +19,20 @@ Then you are good to play it:
   cd src/scripts
   ./test_slam.sh
   ```
+  use the ```turtlebot_teleop``` to control the robot to mapping the environment
+* test navigation using script ```test_navigation.sh```
+  ```
+  cd src/scripts
+  ./test_navigation.sh
+  ```
+  use _2D Nav Goal_ to set goals in _Rviz_
+* perform pick objects functionality using `pick_objects.sh`
+  ```
+  cd src/scripts
+  ./pick_objects.sh
+  ```
+  the robot will reach the first goal, rest for 5 seconds and then go to the second goal. Status information will be printed in console
+* 
 ## Contents
 ### Used ros pkgs
 ### Modified files
