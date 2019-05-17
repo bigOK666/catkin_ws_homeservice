@@ -34,7 +34,7 @@ int main( int argc, char** argv )
   ros::Subscriber odom_sub = n.subscribe("/odom", 1, sub_odom);
   // Set our initial shape type to be a cube
   uint32_t shape = visualization_msgs::Marker::CUBE;
-
+  bool is_Loaded = false;
   while (ros::ok())
   {
     visualization_msgs::Marker marker;
@@ -87,15 +87,9 @@ int main( int argc, char** argv )
     }
     ros::spinOnce();
     ROS_INFO("odom_x is %f, odom_y is %f", odom_x, odom_y);
-    if (((odom_x<1.31+0.5) && (odom_x>1.31-0.5))&&((odom_y<1.29+0.5)&&(odom_y>1.29-0.5)))
+    if (((odom_x<-1.01+0.5) && (odom_x>-1.01-0.5))&&((odom_y<2.85+0.5)&&(odom_y>2.85-0.5)))
     {
-      marker.color.a = 0.0;
-      marker_pub.publish(marker);
-      sleep(5);
-      ROS_INFO("Picked up!(hide pick up point)");
-      
-    }else if (((odom_x<-1.01+0.5) && (odom_x>-1.01-0.5))&&((odom_y<2.85+0.5)&&(odom_y>2.85-0.5)))
-    {
+      is_Loaded = false;
       marker.pose.position.x = dropdown_x;
       marker.pose.position.y = dropdown_y;
       //marker.pose.position.z = 0;
@@ -113,6 +107,15 @@ int main( int argc, char** argv )
       marker_pub.publish(marker);
       sleep(5);
       ROS_INFO("Droped down!(set drop down point)");
+      
+    }else if ((((odom_x<1.31+0.5) && (odom_x>1.31-0.5))&&((odom_y<1.29+0.5)&&(odom_y>1.29-0.5)))||is_Loaded)
+    {
+      is_Loaded = true;
+      marker.color.a = 0.0;
+      marker_pub.publish(marker);
+      sleep(5);
+      ROS_INFO("Picked up!(hide pick up point)");
+ 
       
     }else 
     {
