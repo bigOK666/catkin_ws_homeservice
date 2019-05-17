@@ -26,7 +26,7 @@ int main(int argc, char** argv){
   // Define a position and orientation for the robot to reach
   goal.target_pose.pose.position.x = -7.64;
   goal.target_pose.pose.position.y = 1.86;
-  goal.target_pose.pose.orientation.w = -1.0;
+  goal.target_pose.pose.orientation.w = 1.0;
 
    // Send the goal position and orientation for the robot to reach
   ROS_INFO("Sending goal");

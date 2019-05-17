@@ -87,7 +87,7 @@ int main( int argc, char** argv )
     }
     ros::spinOnce();
     ROS_INFO("odom_x is %f, odom_y is %f", odom_x, odom_y);
-    if (((odom_x<-1.01+0.5) && (odom_x>-1.01-0.5))&&((odom_y<2.85+0.5)&&(odom_y>2.85-0.5)))
+    if (((odom_x<-1.01+0.2) && (odom_x>-1.01-0.2))&&((odom_y<2.85+0.2)&&(odom_y>2.85-0.2)))//if robot reaches drop down zone
     {
       is_Loaded = false;
       marker.pose.position.x = dropdown_x;
@@ -108,7 +108,7 @@ int main( int argc, char** argv )
       sleep(5);
       ROS_INFO("Droped down!(set drop down point)");
       
-    }else if ((((odom_x<1.31+0.5) && (odom_x>1.31-0.5))&&((odom_y<1.29+0.5)&&(odom_y>1.29-0.5)))||is_Loaded)
+    }else if ((((odom_x<1.31+0.2) && (odom_x>1.31-0.2))&&((odom_y<1.29+0.2)&&(odom_y>1.29-0.2)))||is_Loaded)//if robot reaches pick up zone or it is already load the cube
     {
       is_Loaded = true;
       marker.color.a = 0.0;

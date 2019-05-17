@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "turtlebot_capabilities"
-PROJECT_SPACE_DIR = "/home/kevin/workspace/catkin_ws_homeservice/devel"
+PROJECT_SPACE_DIR = "/home/workspace/catkin_ws/devel"
 PROJECT_VERSION = "2.4.2"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/workspace/catkin_ws_homeservice/src
+CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/workspace/catkin_ws_homeservice/build
+CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
 
 # Utility rule file for clean_test_results_gmapping.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kevin/workspace/catkin_ws_homeservice/build
 include slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping.dir/progress.make
 
 slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping:
-	cd /home/kevin/workspace/catkin_ws_homeservice/build/slam_gmapping/gmapping && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/kevin/workspace/catkin_ws_homeservice/build/test_results/gmapping
+	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/workspace/catkin_ws/build/test_results/gmapping
 
 clean_test_results_gmapping: slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping
 clean_test_results_gmapping: slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping.dir/build.make
@@ -67,10 +67,10 @@ slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping.dir/build: clean_t
 .PHONY : slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping.dir/build
 
 slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping.dir/clean:
-	cd /home/kevin/workspace/catkin_ws_homeservice/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_gmapping.dir/cmake_clean.cmake
+	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_gmapping.dir/cmake_clean.cmake
 .PHONY : slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping.dir/clean
 
 slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping.dir/depend:
-	cd /home/kevin/workspace/catkin_ws_homeservice/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/workspace/catkin_ws_homeservice/src /home/kevin/workspace/catkin_ws_homeservice/src/slam_gmapping/gmapping /home/kevin/workspace/catkin_ws_homeservice/build /home/kevin/workspace/catkin_ws_homeservice/build/slam_gmapping/gmapping /home/kevin/workspace/catkin_ws_homeservice/build/slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/slam_gmapping/gmapping /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/slam_gmapping/gmapping /home/workspace/catkin_ws/build/slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : slam_gmapping/gmapping/CMakeFiles/clean_test_results_gmapping.dir/depend
 

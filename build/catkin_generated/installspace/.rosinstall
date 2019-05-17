@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/kevin/workspace/catkin_ws_homeservice/install/setup.sh
+    local-name: /home/workspace/catkin_ws/install/setup.sh

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/workspace/catkin_ws_homeservice/src
+CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/workspace/catkin_ws_homeservice/build
+CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/depend.make
@@ -58,17 +58,17 @@ include turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebo
 include turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/flags.make
 
 turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.o: turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/flags.make
-turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.o: /home/kevin/workspace/catkin_ws_homeservice/src/turtlebot_interactions/turtlebot_interactive_markers/src/turtlebot_marker_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kevin/workspace/catkin_ws_homeservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.o"
-	cd /home/kevin/workspace/catkin_ws_homeservice/build/turtlebot_interactions/turtlebot_interactive_markers && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.o -c /home/kevin/workspace/catkin_ws_homeservice/src/turtlebot_interactions/turtlebot_interactive_markers/src/turtlebot_marker_server.cpp
+turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.o: /home/workspace/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers/src/turtlebot_marker_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.o"
+	cd /home/workspace/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.o -c /home/workspace/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers/src/turtlebot_marker_server.cpp
 
 turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.i"
-	cd /home/kevin/workspace/catkin_ws_homeservice/build/turtlebot_interactions/turtlebot_interactive_markers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kevin/workspace/catkin_ws_homeservice/src/turtlebot_interactions/turtlebot_interactive_markers/src/turtlebot_marker_server.cpp > CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.i
+	cd /home/workspace/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers/src/turtlebot_marker_server.cpp > CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.i
 
 turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.s"
-	cd /home/kevin/workspace/catkin_ws_homeservice/build/turtlebot_interactions/turtlebot_interactive_markers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kevin/workspace/catkin_ws_homeservice/src/turtlebot_interactions/turtlebot_interactive_markers/src/turtlebot_marker_server.cpp -o CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.s
+	cd /home/workspace/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers/src/turtlebot_marker_server.cpp -o CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.s
 
 turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.o.requires:
 
@@ -88,39 +88,39 @@ turtlebot_marker_server_OBJECTS = \
 # External object files for target turtlebot_marker_server
 turtlebot_marker_server_EXTERNAL_OBJECTS =
 
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.o
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/build.make
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libinteractive_markers.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libtf.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libactionlib.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libroscpp.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libtf2.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/librosconsole.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/librostime.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libcpp_common.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kevin/workspace/catkin_ws_homeservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server"
-	cd /home/kevin/workspace/catkin_ws_homeservice/build/turtlebot_interactions/turtlebot_interactive_markers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot_marker_server.dir/link.txt --verbose=$(VERBOSE)
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/src/turtlebot_marker_server.cpp.o
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/build.make
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libinteractive_markers.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libtf.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libactionlib.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libroscpp.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libtf2.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/librosconsole.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/librostime.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /opt/ros/kinetic/lib/libcpp_common.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server: turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server"
+	cd /home/workspace/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot_marker_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/build: /home/kevin/workspace/catkin_ws_homeservice/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server
+turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/build: /home/workspace/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server
 
 .PHONY : turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/build
 
@@ -129,10 +129,10 @@ turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker
 .PHONY : turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/requires
 
 turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/clean:
-	cd /home/kevin/workspace/catkin_ws_homeservice/build/turtlebot_interactions/turtlebot_interactive_markers && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot_marker_server.dir/cmake_clean.cmake
+	cd /home/workspace/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot_marker_server.dir/cmake_clean.cmake
 .PHONY : turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/clean
 
 turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/depend:
-	cd /home/kevin/workspace/catkin_ws_homeservice/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/workspace/catkin_ws_homeservice/src /home/kevin/workspace/catkin_ws_homeservice/src/turtlebot_interactions/turtlebot_interactive_markers /home/kevin/workspace/catkin_ws_homeservice/build /home/kevin/workspace/catkin_ws_homeservice/build/turtlebot_interactions/turtlebot_interactive_markers /home/kevin/workspace/catkin_ws_homeservice/build/turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers /home/workspace/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/turtlebot_marker_server.dir/depend
 

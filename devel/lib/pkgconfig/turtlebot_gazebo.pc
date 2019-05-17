@@ -1,8 +1,8 @@
-prefix=/home/kevin/workspace/catkin_ws_homeservice/devel
+prefix=/home/workspace/catkin_ws/devel
 
 Name: turtlebot_gazebo
 Description: Description of turtlebot_gazebo
 Version: 2.2.3
 Cflags: 
-Libs: -L/home/kevin/workspace/catkin_ws_homeservice/devel/lib 
+Libs: -L/home/workspace/catkin_ws/devel/lib 
 Requires: 
