@@ -32,6 +32,12 @@ Then you are good to play it:
   ./pick_objects.sh
   ```
   the robot will reach the first goal, rest for 5 seconds and then go to the second goal. Status information will be printed in console
+* performe home service robot functionality using `home_service.sh`
+  ```
+  cd src/scripts
+  ./home_service.sh
+  ```  
+  the robot will go to pick up zone for 5 seconds to pick up the cube in pick up zone. Then the robot carry the cube to drop down zone and drop the cube down
 * add markers in Rviz using `add_markers.sh`. But `add_markers_showANDhide.cpp` must be compiled first. Change the name of `add_markers_showANDhide.cpp` to `add_markers.cpp` then 
   ```
   catkin_make
