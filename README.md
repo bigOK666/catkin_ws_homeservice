@@ -49,4 +49,13 @@ Then you are good to play it:
   
 ## Contents
 ### Used ros pkgs
+* `slam_gmapping` is used for slam mapping.
+* `turtlebot` is used for drive the robot.
+* `turtlebot_interactions` is used for visulize in Rviz.
+* `turtlebot_simulator` is used for load the robot and environments in gazebo world and perform amcl localization.
 ### Modified files
+* `/src/turtlebot_interactions/turtlebot_rviz_launchers/rviz/navigation.rviz` subcribes visulization_marker topic now to show markers.
+* `/src/turtlebot_simulator/turtlebot_gazebo/launch/amcl_demo.launch` loads new _map.yaml_ file from `/src/map/map.yaml`
+ and changes initial pose of the robot.
+* `/src/turtlebot_simulator/turtlebot_gazebo/launch/includes/kobuki.launch.xml` changes robot pose.
+* `/src/turtlebot_simulator/turtlebot_gazebo/launch/turtlebot_world.launch` loads new world file frome `/src/map/home.world`.
